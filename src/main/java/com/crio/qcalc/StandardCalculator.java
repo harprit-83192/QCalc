@@ -23,11 +23,11 @@ public class StandardCalculator {
         add((double)num1,(double)num2);
     }
 
-    public void substract(double num1, double num2){
+    public void subtract(double num1, double num2){
         result = num1 - num2;
     }
-    public void substract(int num1, int num2){
-        substract((double)num1,(double)num2);
+    public void subtract(int num1, int num2){
+        subtract((double)num1,(double)num2);
     }
 
     public void multiply(double num1, double num2){

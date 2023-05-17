@@ -34,7 +34,7 @@ public class StandardCalculatorTest {
     @Test
     @DisplayName("Test Substraction of Two Doubles")
     void testSubtractionOperationForDoubles(){
-        standardCalculator.substract(10.0,20.5);
+        standardCalculator.subtract(10.0,20.5);
         double actualResult = standardCalculator.getResult();
         Assertions.assertEquals(-10.5, actualResult);
     }
@@ -59,7 +59,7 @@ public class StandardCalculatorTest {
     @Test
     @DisplayName("Test Substraction of Two Integers")
     void testSubtractionOperation(){
-        standardCalculator.substract(1,1);
+        standardCalculator.subtract(1,1);
         double actualResult = standardCalculator.getResult();
         Assertions.assertEquals(0, actualResult);
     }
