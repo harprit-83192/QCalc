@@ -9,13 +9,10 @@ public class QcalcApplication {
 	public static void main(String[] args) {
 		// SpringApplication.run(QcalcApplication.class, args);
 		System.out.println("Starting Qcalc...");
-		StandardCalculator calc=new StandardCalculator();
-		calc.add(1,1);
-		// calc.subtract(1, 1);
-		// calc.multiply(25, 5);
-		// calc.divide(1,1);
+		
+		StandardCalculator calc = new StandardCalculator();
+		calc.add(Double.MAX_VALUE, Double.MAX_VALUE);
 		calc.printResult();
-
 	}
 
 }
